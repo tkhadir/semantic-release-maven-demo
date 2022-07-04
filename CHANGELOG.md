@@ -1,3 +1,11 @@
+# 1.0.0 (2022-07-04)
+
+
+### Features
+
+* add ci ([cdabbe9](https://github.com/tkhadir/semantic-release-maven-demo/commit/cdabbe934afcc1dfdf3046852d4dc06d24882a73))
+* add test ([d7d1b54](https://github.com/tkhadir/semantic-release-maven-demo/commit/d7d1b54e6fe28e1562c2f537face6be31f93eeda))
+
 ## [1.1.1](https://github.com/bogaertg/semantic-release-maven-demo/compare/1.1.0...1.1.1) (2022-06-20)
 
 
