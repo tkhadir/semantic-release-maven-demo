@@ -31,3 +31,5 @@ jobs:
         npm i -g @semantic-release/release-notes-generator
     - name: Run semantic
       run: semantic-release --no-ci
+      env:
+        GITHUB_TOKEN: ${{ secrets.github_token }}
