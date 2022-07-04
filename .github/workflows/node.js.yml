@@ -9,6 +9,7 @@ jobs:
   release-job:
     permissions:
       issues: write
+      contents: write
       packages: write
       repository-projects: write
     runs-on: ubuntu-latest
