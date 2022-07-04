@@ -33,3 +33,5 @@ jobs:
         npm i -g @semantic-release/exec
         npm i -g @semantic-release/git
         npm i -g @semantic-release/release-notes-generator
+    - name: Run semantic
+      run: semantic-release --no-ci
