@@ -9,6 +9,8 @@ jobs:
   release-job:
     permissions:
       issues: write
+      packages: write
+      repository-projects: write
     runs-on: ubuntu-latest
     strategy:
       matrix:
