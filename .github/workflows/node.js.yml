@@ -25,3 +25,11 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
     - run: echo "ok"
+    - name: Install semantic
+      run: |
+        npm i -g semantic-release
+        npm i -g @semantic-release/changelog
+        npm i -g @semantic-release/github
+        npm i -g @semantic-release/exec
+        npm i -g @semantic-release/git
+        npm i -g @semantic-release/release-notes-generator
