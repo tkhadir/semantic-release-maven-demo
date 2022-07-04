@@ -34,4 +34,4 @@ jobs:
     - name: Run semantic
       run: semantic-release --no-ci
       env:
-        GITHUB_TOKEN: ${{ secrets.github_token }}
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
