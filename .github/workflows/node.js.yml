@@ -31,6 +31,12 @@ jobs:
         npm i -g @semantic-release/exec
         npm i -g @semantic-release/git
         npm i -g @semantic-release/release-notes-generator
+    - name: Test push
+      run: |
+        echo "hello world" >> test.txt
+        git add test.txt
+        git commit -m "feat: add test"
+        git push origin
     - name: Run semantic
       run: semantic-release --no-ci
       env:
