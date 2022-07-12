@@ -1,3 +1,12 @@
+# [1.1.0](https://github.com/tkhadir/semantic-release-maven-demo/compare/v1.0.0...v1.1.0) (2022-07-12)
+
+
+### Features
+
+* add test ([d9571fa](https://github.com/tkhadir/semantic-release-maven-demo/commit/d9571fa8ab8cd86b5f12caf1688bff23d1ff1120))
+* add test ([da75202](https://github.com/tkhadir/semantic-release-maven-demo/commit/da752021d3d098a676e4afedc79495fab7e13a0f))
+* change something ([925eca2](https://github.com/tkhadir/semantic-release-maven-demo/commit/925eca22a33ac9a5f82686cc7fd5a76af21c0110))
+
 # 1.0.0 (2022-07-04)
 
 
